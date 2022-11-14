@@ -1,0 +1,47 @@
+ul, button{
+    margin: 0;
+    padding: 0;
+}
+
+.theme{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-top: 1rem; margin-bottom: .2rem;
+    line-height: 1rem;
+    padding: .2rem .5rem;
+    width: 10rem;
+    background-color: rgb(255, 255, 255, .6);
+    color: rgb(108, 108, 108);
+    border: 0;
+    border-radius: .3rem;
+}
+.theme:focus{
+    border: 1px solid #7a7a7a;
+}
+
+.option{
+    color: rgb(129, 129, 129);
+    width: 10rem;
+    border-radius: .3rem;
+    text-align: left;
+    background: rgb(255, 255, 255, .4);
+    border: none;
+    line-height: 1rem;
+    padding: .2rem .5rem;
+    margin: .2rem 0;
+    box-sizing: border-box;
+}
+
+.option:hover{
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.listbox{
+    display: none;
+
+}
+.select.active .listbox {
+    display:initial;
+    list-style: none;
+}

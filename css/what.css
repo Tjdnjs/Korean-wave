@@ -1,0 +1,30 @@
+section{
+    height:fit-content;
+    position: relative;
+    top: 6.5rem;
+    justify-content:flex-start;
+}
+#tit1{
+    font-size: 2rem;
+}
+nav{
+    margin-top: 0;
+    color: rgba(255, 255, 255,.7);
+}
+a,
+a:visited{
+    color: rgba(255, 255, 255,.7);
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(255, 255, 255)
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin-top: 1rem;
+    font-size: .8rem;
+}

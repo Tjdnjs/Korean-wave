@@ -1,0 +1,76 @@
+*{
+    margin: 0
+}
+html, body{
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+}
+
+.ko{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    background: rgb(255,181,181);
+    background: linear-gradient(142deg, rgba(255,181,181,1) 0%, rgba(156,160,255,1) 88%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-shape-divider-top-1668397104 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1668397205 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1668397205 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 133px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1668397205 .shape-fill {
+    fill: #FDFDFD;
+}
+
+section{
+    color: rgba(255, 255, 255,.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+nav{
+    margin-top: 1rem;
+    color: rgba(255, 255, 255,.7);
+}
+nav a,
+nav a:visited{
+    color: rgba(255, 255, 255,.7);
+    text-decoration: none;
+    font-size: .8rem;
+}
+nav a:hover{
+    color:rgba(255, 255, 255)
+}
+
+#tit1, #tit2{
+    font-size: 3rem;
+    font-weight: 800;
+}

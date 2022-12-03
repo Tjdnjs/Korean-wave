@@ -73,7 +73,7 @@ selectBoxElements.forEach(selectBoxElement => {
         // option과 nav 대한 hover 처리
         backHover(options, 'gray', 'rgba(255, 255, 255, .4)');
         colorHover(nav, 'rgba(255, 255, 255, .8)', 'rgb(255, 255, 255)');
-        
+
         svg.style.fill = '#FDFDFD';
     }
 

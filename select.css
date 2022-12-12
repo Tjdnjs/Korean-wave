@@ -15,6 +15,7 @@ ul, button{
     border: 0;
     border-radius: .3rem;
 }
+
 .theme:focus{
     border: 1px solid #7a7a7a;
 }

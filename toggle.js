@@ -10,6 +10,7 @@ function selectOption(optionElement) {
   selectedElement.textContent = optionElement.textContent;
 }
 
+// 배경색에 hover 처리하는 함수
 function backHover(target, color1, color2){
   target.forEach(el =>{
     el.addEventListener("mouseover", e => {
@@ -21,6 +22,7 @@ function backHover(target, color1, color2){
   })
 }
 
+// 글자색을 hover 처리하는 함수
 function colorHover(target, color1, color2){
   target.forEach(el =>{
     el.addEventListener("mouseover", e => {
